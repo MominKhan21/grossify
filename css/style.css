@@ -60,7 +60,7 @@ html{
     }
 }
 
-.nav5:hover{box-shadow: 0 0 20px}
+.nav5:hover{box-shadow: 0 0 20px;}
 
 body{background: linear-gradient(to right,#13142c ,#0a0714 );}
 
@@ -94,7 +94,7 @@ body{background: linear-gradient(to right,#13142c ,#0a0714 );}
 
     .div-4 {
         opacity: 0;
-        transition: .3s linear;
+        transition: .1s linear;
         transform: translateY(10vmin);
     }
     .div-4-ani {
@@ -102,3 +102,6 @@ body{background: linear-gradient(to right,#13142c ,#0a0714 );}
         transform: none;
         transition: 1s cubic-bezier(.18, 0, 0, 1.2) .5s;
     }
+
+    .div-4:hover{box-shadow: 0 0 10px;;
+        transition: shadow -10s;}
